@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --cor-primaria: rgb(13, 106, 134);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cor-primaria);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.titulo {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cpf-gerado {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cor-primaria);
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.gerar {
+    display: block;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--cor-primaria);
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+
+button:active {
+    background: black;
+}
